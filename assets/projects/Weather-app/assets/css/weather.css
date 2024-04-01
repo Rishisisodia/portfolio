@@ -1,0 +1,68 @@
+body{
+    color: white;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    margin-top: 0%;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 10px;
+    /* Adjust the margin as needed to separate the logo and h1 */
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.city-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-temp-container {
+    display: flex;
+    gap: 20px;
+    width: calc(100% / 2 - 40px);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.weather-temp {
+    margin: 5px;
+}
+
+.weather-description {
+    font-size: 18px;
+    /* Increase the font size for the weather description */
+}
+
+.weather-temp-label {
+    font-size: 20px;
+    /* Increase the font size for the temperature labels */
+}
